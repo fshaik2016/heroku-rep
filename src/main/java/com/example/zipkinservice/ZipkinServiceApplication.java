@@ -12,7 +12,7 @@ public class ZipkinServiceApplication {
 	
 	@GetMapping("/hi")
 	String hi() {
-		return "Hello Fayaz Shaik";
+		return "Hello Fahad Shaik";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(ZipkinServiceApplication.class, args);
